@@ -63,4 +63,3 @@ def test_warning_direction():
     """Test wind components warning is raised"""
     with pytest.warns(UserWarning):
         get_wind_components(3, 480)
-
